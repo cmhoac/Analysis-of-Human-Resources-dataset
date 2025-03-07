@@ -1,0 +1,345 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="d884bdd5-271c-4af2-a58c-215b0aa5a4dd" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Time</ID>
+  <Name>Dim Time</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2334" scrolltop="-2461" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7796" y="11218" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900180380100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Time" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3140" height="2593" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000440c0000210a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Time" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2334</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-2461</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="158">
+            <Shape Id="Date Of Hire" Expanded="false">
+              <Attributes>
+                <Attribute Id="Date Of Hire" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Day Of Hire" Expanded="false">
+              <Attributes>
+                <Attribute Id="Day Of Hire" />
+              </Attributes>
+              <Position x="222" y="20" />
+            </Shape>
+            <Shape Id="Month Of Hire" Expanded="false">
+              <Attributes>
+                <Attribute Id="Month Of Hire" />
+              </Attributes>
+              <Position x="425" y="20" />
+            </Shape>
+            <Shape Id="Quarter Of Hire" Expanded="false">
+              <Attributes>
+                <Attribute Id="Quarter Of Hire" />
+              </Attributes>
+              <Position x="627" y="20" />
+            </Shape>
+            <Shape Id="Year Of Hire" Expanded="false">
+              <Attributes>
+                <Attribute Id="Year Of Hire" />
+              </Attributes>
+              <Position x="830" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="f7257f94-ac82-4331-9c71-0fc3a68f023f">
+    <DataSourceViewID>HR DW</DataSourceViewID>
+  </Source>
+  <Type>Time</Type>
+  <UnknownMember>Hidden</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="bbbe6ad5-d744-423e-ab8f-1f252d0f30d1">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="39468c7b-00e9-48bc-be2f-8b0ae7102df4">
+      <ID>Date Of Hire</ID>
+      <Name>Date Of Hire</Name>
+      <Type>Date</Type>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5bc3d0c1-f320-4f10-920c-593c9e47c6ed">
+          <DataType>Date</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="64169500-162d-4871-a412-ada63154863a">
+            <TableID>dbo_Dim_Time</TableID>
+            <ColumnID>Date_of_Hire</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="cd30b482-4ae5-459f-9cfb-71f29403623f">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="65f5bcb4-1119-4406-8317-c4466a513a92">
+          <TableID>dbo_Dim_Time</TableID>
+          <ColumnID>Date_of_Hire</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="a587b58f-d86c-43f0-9d79-867e7980355c">
+          <AttributeID>Day Of Hire</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Day Of Hire</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a0ebd86f-39c9-4734-afa1-8cb3ed53806e">
+      <ID>Day Of Hire</ID>
+      <Name>Day Of Hire</Name>
+      <Type>DayOfMonth</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a0e6da22-8f37-4499-8bbc-838dc70dd931">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="48f82835-a4ee-4d71-afb0-f1f96e950658">
+            <TableID>dbo_Dim_Time</TableID>
+            <ColumnID>Day_of_Hire</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="d5429176-ba45-4d70-8136-8bda929e805e">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="039b724e-56b0-4b07-a3cb-bc7c194bb383">
+            <TableID>dbo_Dim_Time</TableID>
+            <ColumnID>Month_of_Hire</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="56c7dd1b-3254-4cdd-a40b-d9f231fadfe7">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c98b2f02-dbff-44be-825f-36349dab670e">
+            <TableID>dbo_Dim_Time</TableID>
+            <ColumnID>Quarter_of_Hire</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="095bc40f-22f1-4ca5-9dd7-e97be4d3e611">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="29383ca8-9627-4f92-aa40-7e340fd08a3e">
+            <TableID>dbo_Dim_Time</TableID>
+            <ColumnID>Year_of_Hire</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="2ba34f38-d998-4a67-85d4-bdbdbe539a74">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="c4532c9c-4ff2-4208-879c-0f676ece6397">
+          <TableID>dbo_Dim_Time</TableID>
+          <ColumnID>Day_of_Hire</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="2b51ea75-1909-48e9-b125-fb2ef8c0d399">
+          <AttributeID>Month Of Hire</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Month Of Hire</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="24e93f6c-b00e-4cfd-9fbb-18fd6a62e1f6">
+      <ID>Month Of Hire</ID>
+      <Name>Month Of Hire</Name>
+      <Type>MonthOfYear</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5f41a3d0-c222-4bd1-aa2f-5aae9251e3ca">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cfc1f04a-1513-4ce5-8f05-c5ecbb3a83a9">
+            <TableID>dbo_Dim_Time</TableID>
+            <ColumnID>Month_of_Hire</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="eb0fef4a-1000-4350-a979-d70e77fbc320">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="12ee81e4-0794-4352-b0e9-292dcb6a7283">
+            <TableID>dbo_Dim_Time</TableID>
+            <ColumnID>Quarter_of_Hire</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="98830ded-ebf3-4cef-9da3-e30bb3d5b5fc">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ef45c03f-cb14-4946-895d-4fa14a4ed904">
+            <TableID>dbo_Dim_Time</TableID>
+            <ColumnID>Year_of_Hire</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="0ef9ce4a-1630-499a-8b0c-f0ff02087ac7">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="6b116230-fe72-4310-a957-b9901bb56d7c">
+          <TableID>dbo_Dim_Time</TableID>
+          <ColumnID>Month_of_Hire</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="dc62da58-1074-48fb-b09d-8a766fda4d1f">
+          <AttributeID>Quarter Of Hire</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Quarter Of Hire</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="02aa688e-b7d3-4414-a39a-e1f5f90813e5">
+      <ID>Quarter Of Hire</ID>
+      <Name>Quarter Of Hire</Name>
+      <Type>QuarterOfYear</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f5122ca6-e336-4941-873b-f3cad0f26d9e">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="eeda7c22-8cb5-4c1e-bb99-d4135aa21c8d">
+            <TableID>dbo_Dim_Time</TableID>
+            <ColumnID>Quarter_of_Hire</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="ecef197d-6c70-4496-80b5-6506f4412971">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="283a1732-f811-4929-9902-d6af6ba1c7c2">
+            <TableID>dbo_Dim_Time</TableID>
+            <ColumnID>Year_of_Hire</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="06662374-c9e2-4a27-93ef-72b25fd1e8d6">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="87c7430e-fd35-4729-a3b9-8cee2f65d839">
+          <TableID>dbo_Dim_Time</TableID>
+          <ColumnID>Quarter_of_Hire</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="dc784da3-701a-4f89-9785-01677f677734">
+          <AttributeID>Year Of Hire</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Year Of Hire</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="73397460-9eaa-4a7a-8792-3551344db215">
+      <ID>Year Of Hire</ID>
+      <Name>Year Of Hire</Name>
+      <Type>Years</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="018fdb42-04ff-4396-8506-b0b974c6dbb8">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a5deb547-89b6-4b5b-9b5e-9b5a161c0f87">
+            <TableID>dbo_Dim_Time</TableID>
+            <ColumnID>Year_of_Hire</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="795a65f3-f079-42be-b80e-89cfa02bdc2b">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="a18c9c0b-adb5-4def-a8a0-0db24ea43518">
+          <TableID>dbo_Dim_Time</TableID>
+          <ColumnID>Year_of_Hire</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="41a95ca6-c3bd-4118-acd3-26e21cb0b67c">
+      <ID>Hierarchy</ID>
+      <Name>Time of Hiring</Name>
+      <Levels>
+        <Level dwd:design-time-name="def802ed-681e-47a8-987c-09b9fd675d70">
+          <ID>Year Of Hire</ID>
+          <Name>Year Of Hire</Name>
+          <SourceAttributeID>Year Of Hire</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="f148ebb6-c563-41d6-a380-3daf50b41b99">
+          <ID>Quarter Of Hire</ID>
+          <Name>Quarter Of Hire</Name>
+          <SourceAttributeID>Quarter Of Hire</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="d36d1210-3177-494c-a2c9-04ec12a0aa73">
+          <ID>Month Of Hire</ID>
+          <Name>Month Of Hire</Name>
+          <SourceAttributeID>Month Of Hire</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="bd2a62be-60b9-429d-9398-669666876519">
+          <ID>Day Of Hire</ID>
+          <Name>Day Of Hire</Name>
+          <SourceAttributeID>Day Of Hire</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
